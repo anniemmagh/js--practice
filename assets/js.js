@@ -84,3 +84,14 @@ fruit.sort();
  
 for(var i=0; i < fruit.length; i++)
    document.write(fruit[i] + "<br/>");
+//////
+var numbers = [ 1, -12, 8, -4, 25, 42 ];
+function condition(value, index, array) {
+    var result = false;
+    if (value > 0) {
+        result = true;
+    }
+    return result;
+};
+var passed = numbers.every(condition);
+document.write(passed); // false
