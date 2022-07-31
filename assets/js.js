@@ -78,3 +78,9 @@ fruit.reverse();
  
 for(var i=0; i < fruit.length; i++)
    document.write(fruit[i] + "<br/>");
+///////////
+var fruit = ["ვაშლი", "მსხალი", "ქლიავი", "ალუბალი", "ატამი"];
+fruit.sort();
+ 
+for(var i=0; i < fruit.length; i++)
+   document.write(fruit[i] + "<br/>");
