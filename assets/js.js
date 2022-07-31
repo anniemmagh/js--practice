@@ -72,3 +72,9 @@ var firstFruit = fruit.shift(); // წავშალოთ მასივი�
 document.write(firstFruit + "<br/>");
 document.write("fruit მასივში " + fruit.length + " ელემენტია: <br/>");
 document.write(fruit);
+/////////
+var fruit = ["ვაშლი", "მსხალი", "ქლიავი", "ალუბალი", "ატამი"];
+fruit.reverse();
+ 
+for(var i=0; i < fruit.length; i++)
+   document.write(fruit[i] + "<br/>");
