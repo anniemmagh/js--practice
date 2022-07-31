@@ -65,3 +65,10 @@ var lastFruit = fruit.pop(); // წავშალოთ მასივის �
 document.write(lastFruit + "<br/>");
 document.write("fruit მასივში " + fruit.length + " ელემენტია: <br/>");
 document.write(fruit);
+/////////
+var fruit = ["ვაშლი","მსხალი","ქლიავი"];
+ 
+var firstFruit = fruit.shift(); // წავშალოთ მასივის პირველი ელემენტი
+document.write(firstFruit + "<br/>");
+document.write("fruit მასივში " + fruit.length + " ელემენტია: <br/>");
+document.write(fruit);
