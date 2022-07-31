@@ -49,3 +49,12 @@ if (age >= 18) {
 } else {
     alert("tqven ar shegidzliat radgan xart 18-")
 }
+/////////////
+var fruit = [];
+fruit.push("ვაშლი");
+fruit.push("მსხალი");
+fruit.push("ქლიავი");
+fruit.push("ალუბალი", "ატამი");
+ 
+document.write("fruit მასივში " + fruit.length + " ელემენტია: <br/>");
+document.write(fruit); // ვაშლი,მსხალი,ქლიავი,ალუბალი,ატამი
