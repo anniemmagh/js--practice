@@ -58,3 +58,10 @@ fruit.push("ალუბალი", "ატამი");
  
 document.write("fruit მასივში " + fruit.length + " ელემენტია: <br/>");
 document.write(fruit); // ვაშლი,მსხალი,ქლიავი,ალუბალი,ატამი
+//////////
+var fruit = ["ვაშლი","მსხალი","ქლიავი"];
+ 
+var lastFruit = fruit.pop(); // წავშალოთ მასივის ბოლო ელემენტი
+document.write(lastFruit + "<br/>");
+document.write("fruit მასივში " + fruit.length + " ელემენტია: <br/>");
+document.write(fruit);
